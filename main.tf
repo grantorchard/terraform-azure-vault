@@ -44,7 +44,7 @@ resource azurerm_network_interface "this" {
 }
 
 data azurerm_image "this" {
-  name_regex          = "^vault-1.4.0"
+  name_regex          = "^vault-1.5.0"
   resource_group_name = "gopacker"
   sort_descending = true
 }
